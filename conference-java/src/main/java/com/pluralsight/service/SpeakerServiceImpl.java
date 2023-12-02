@@ -12,9 +12,6 @@ public class SpeakerServiceImpl implements SpeakerService {
 
     private SpeakerRepository repo;
 
-    public SpeakerServiceImpl(){
-        System.out.println("speakerServiceImpl no arg constructor");
-    }
     public SpeakerServiceImpl(SpeakerRepository spkrRepo){
         repo = spkrRepo;
     }
@@ -25,7 +22,7 @@ public class SpeakerServiceImpl implements SpeakerService {
         return repo.findAll();
     }
 
-    @Autowired
+
     @Override
     public void setRepository(SpeakerRepository spkrRepo) {
         System.out.println("speakerServiceImpl setter");
