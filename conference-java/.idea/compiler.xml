@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="conference" />
         <module name="basics" />
+        <module name="conference-java" />
       </profile>
     </annotationProcessing>
   </component>
