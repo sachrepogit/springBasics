@@ -11,12 +11,13 @@
     -->
     <!-- bean definitions here -->
     <bean name="speakerRepository" class="com.pluralsight.repository.HibernateSpeakerRepositoryImpl" />
-    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl">
-        <!-- Setter Injection
-        <property name="speakerRepository" ref="speakerRepository" />
-        -->
-        <constructor-arg index="0" ref="speakerRepository"></constructor-arg>
-    </bean>
+    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="constructor">
+
+        <!-- Constructor Injection
+      <constructor-arg index="0" ref="speakerRepository"></constructor-arg>
+      <property name="speakerRepository" ref="speakerRepository" />
+      -->
+  </bean>
 
 
 </beans>

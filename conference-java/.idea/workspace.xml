@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf50ccc-42ff-4181-96da-bccc3952a6bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/conference-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conference-xml/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conference-xml/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +36,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../conference-xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conference-xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
