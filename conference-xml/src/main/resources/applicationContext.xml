@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Sample Entry
+    <bean name="customerService" class="com.pluralsight.service.CustomerServiceImpl" autowire="byName">
+    <property name="0" ref="customerRepository"/>
+    </bean>
+    -->
+    <!-- bean definitions here -->
+    <bean name="speakerRepository" class="com.pluralsight.repository.HibernateSpeakerRepositoryImpl" />
+    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl">
+        <!-- Setter Injection
+        <property name="speakerRepository" ref="speakerRepository" />
+        -->
+        <constructor-arg index="0" ref="speakerRepository"></constructor-arg>
+    </bean>
+
+
+</beans>
