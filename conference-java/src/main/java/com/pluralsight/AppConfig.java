@@ -18,13 +18,13 @@ import org.springframework.context.annotation.Scope;
 @ComponentScan({"com.pluralsight"}) //The bean annotation is only applicable at method level. Bean annotation is not defined at Class level.
 public class AppConfig
 {
+
     @Bean(name = "speakerService")
-    //Singleton object
-   @Scope(value = BeanDefinition.SCOPE_SINGLETON)
+    @Scope(value = BeanDefinition.SCOPE_SINGLETON)
    // @Scope(value = BeanDefinition.SCOPE_PROTOTYPE)
     public SpeakerService getSpeakerService(){
-       //SpeakerService spkSerImpl = new SpeakerServiceImpl(getSpeakerRepository());
-        SpeakerService spkSerImpl = new SpeakerServiceImpl();
+       SpeakerService spkSerImpl = new SpeakerServiceImpl(getSpeakerRepository());
+        //SpeakerService spkSerImpl = new SpeakerServiceImpl();
         //spkSerImpl.setRepository(getSpeakerRepository());
         return spkSerImpl;
     }
