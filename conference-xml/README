@@ -1,0 +1,19 @@
+Example XML entry requried in applicationContext.xml file
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+</beans>
+
+The schema above define the Bean definition which will validate the beans defined by us. Acts like a dictionary which we can use to define properties
+of our bean.
+Beans are
+    esentially classes(POJOs).
+    Replaces keyword new
+    Define class, use the interface
+
