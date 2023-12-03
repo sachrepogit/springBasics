@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bcf50ccc-42ff-4181-96da-bccc3952a6bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conference-xml/src/main/java/com/pluralsight/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/src/main/java/com/pluralsight/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conference-xml/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../conference-xml/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../conference-xml/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/target/classes/applicationContext.xml" afterDir="false" />
     </list>

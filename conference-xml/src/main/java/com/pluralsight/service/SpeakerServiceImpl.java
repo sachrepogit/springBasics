@@ -18,10 +18,10 @@ public class SpeakerServiceImpl implements SpeakerService {
     public SpeakerServiceImpl(){
     }
 
-    public SpeakerServiceImpl(SpeakerRepository speakRepo){
+   /* public SpeakerServiceImpl(SpeakerRepository speakRepo){
         repository = speakRepo;
     }
-
+*/
     @Override
     public List<Speaker> findAll(){
         return repository.findAll();
