@@ -15,7 +15,7 @@
        <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="constructor" >
        -->
 
-          <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="byName" >
+    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="byType" >
 
        <!-- Constructor Injection
          <constructor-arg index="0" ref="speakerRepository"></constructor-arg>

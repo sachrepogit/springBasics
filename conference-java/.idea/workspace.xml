@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcf50ccc-42ff-4181-96da-bccc3952a6bf" name="Default Changelist" comment="">
+    <list default="true" id="bcf50ccc-42ff-4181-96da-bccc3952a6bf" name="Default Changelist" comment="BeanFactory Exercises">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/util/CalanderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/model/Speaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/repository/CustomerRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/repository/SpeakerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/service/SpeakerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conference-xml/target/classes/com/pluralsight/service/SpeakerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conference-xml/src/main/java/com/pluralsight/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/src/main/java/com/pluralsight/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conference-xml/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Speaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conference-xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../conference-xml/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conference-xml/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conference-xml/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,6 +56,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/pluralsight" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../conference-xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -72,6 +91,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.Application" />
       <module name="conference-java" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pluralsight.service.*" />
@@ -113,6 +133,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BeanFactory Exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeanFactory Exercises" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/conference$Application.ic" NAME="Application Coverage Results" MODIFIED="1701586669347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

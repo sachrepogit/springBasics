@@ -21,4 +21,14 @@ public class Speaker {
 
     private String lastName;
 
+    public double getSeedNum() {
+        return seedNum;
+    }
+
+    public void setSeedNum(double seedNum) {
+        this.seedNum = seedNum;
+    }
+
+    private double seedNum;
+
 }
