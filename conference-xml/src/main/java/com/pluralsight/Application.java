@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Application {
     public static void main(String[] args){
         ApplicationContext appContext = new ClassPathXmlApplicationContext("applicationContext.xml");
-        SpeakerService service = appContext.getBean("speakerService",SpeakerService.class);
+        SpeakerService service = appContext.getBean("SpeakerService",SpeakerService.class);
         System.out.println(service.findAll().get(0).getFirstName());
         //System.out.println(service.findAll().get(0).getLastName());
         //service = appContext.getBean("speakerService",SpeakerService.class);

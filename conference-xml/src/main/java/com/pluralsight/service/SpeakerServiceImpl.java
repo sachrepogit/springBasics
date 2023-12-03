@@ -15,6 +15,9 @@ public class SpeakerServiceImpl implements SpeakerService {
 
     private SpeakerRepository repository;
 
+    public SpeakerServiceImpl(){
+    }
+
     public SpeakerServiceImpl(SpeakerRepository speakRepo){
         repository = speakRepo;
     }
